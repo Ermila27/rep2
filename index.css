@@ -1,0 +1,85 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+
+*{
+    margin: 0;
+   
+    padding: 0;
+}
+
+.allhome{
+    width: 100%;
+    
+    
+    
+
+
+}
+.outerhome{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    position: fixed;
+    left:180px ;
+    display: flex;
+    margin: auto;
+    top: 0;
+    background-color: rgb(212, 218, 224);
+    align-items: center;
+    padding-left: 10px;
+}
+.nav{
+    width: 180px;
+    
+     height: 100vh;
+    
+   
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.nav ul li{
+    list-style: none;
+    padding-top: 25px;
+}
+.logo{
+    position: absolute;
+    top :50px;
+    left: 60px; 
+    letter-spacing: 5px;
+    padding: 8px 4px;
+    font-family: "Clicker Script", cursive;
+    font-family: 40px;
+    border-bottom: 5px solid orange;
+}
+.nav ul li .active{
+    color: orange;
+}
+.nav ul i{
+    padding-right: 15px;
+}
+
+img {
+    width: 180px;
+}
+.home1{
+    width: 48%;
+    
+    background-color: red;
+}
+.home1-1{
+    padding-bottom: 30px;
+}
+.home2{
+    width: 48%;
+    
+}
+.tosep{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
